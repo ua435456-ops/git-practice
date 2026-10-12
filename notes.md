@@ -52,6 +52,8 @@ git rm --cached - удалить файл из staging area
 git log --oneline -- имя_файла — история конкретного файла.
 git ls-files — все отслеживаемые файлы.
 git show хеш --stat — какие файлы в коммите.
+git push — отправить изменения на GitHub.
+git pull — забрать изменения с GitHub.
 
 Работа с ветками:
 git branch — посмотреть все ветки (текущая — со *).
