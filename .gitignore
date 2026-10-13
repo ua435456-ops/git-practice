@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# IDE
+.idea/
+.vscode/
+
+# Секреты
+.env
+
+# Логи
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
