@@ -112,6 +112,10 @@ git stash apply	  Достать, но оставить в stash
 Лишний файл в коммите	  git rm --cached лишний → git commit --amend --no-edit
 Изменить и то, и другое	  git add файл → git commit --amend -m "новое"
 
+git restore файл	                Отменить изменения в файле (из последнего коммита)
+git restore --staged файл	        Убрать файл из staging (изменения остаются)
+git restore --source=HEAD~2 файл	Восстановить файл из коммита HEAD~2
+
 
 Работа с ветками:
 git branch — посмотреть все ветки (текущая — со *).
